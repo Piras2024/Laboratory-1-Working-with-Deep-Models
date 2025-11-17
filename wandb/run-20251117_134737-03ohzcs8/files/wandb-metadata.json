@@ -1,0 +1,47 @@
+{
+  "os": "Linux-5.15.0-119-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.13.9",
+  "startedAt": "2025-11-17T12:47:37.437334Z",
+  "program": "/andromeda/personal/mpiras/Lab_1/Lab1-CNNs.ipynb",
+  "codePath": "/andromeda/personal/mpiras/Lab_1/Lab1-CNNs.ipynb",
+  "codePathLocal": "Lab1-CNNs.ipynb",
+  "git": {
+    "remote": "https://github.com/Piras2024/Laboratory-1-Working-with-Deep-Models.git",
+    "commit": "d55813f0acf770c5bcda3b09728b947d07e8c96c"
+  },
+  "email": "matteo.piras@edu.unifi.it",
+  "root": "/andromeda/personal/mpiras/Lab_1",
+  "host": "harlock",
+  "executable": "/andromeda/personal/mpiras/miniconda3/envs/DLA/bin/python",
+  "cpu_count": 20,
+  "cpu_count_logical": 40,
+  "gpu": "NVIDIA GeForce RTX 2080 Ti",
+  "gpu_count": 2,
+  "disk": {
+    "/": {
+      "total": "502391562240",
+      "used": "147561402368"
+    }
+  },
+  "memory": {
+    "total": "270344613888"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "memoryTotal": "11811160064",
+      "cudaCores": 4352,
+      "architecture": "Turing",
+      "uuid": "GPU-50ad2298-cd85-220c-d779-c8075677092c"
+    },
+    {
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "memoryTotal": "11811160064",
+      "cudaCores": 4352,
+      "architecture": "Turing",
+      "uuid": "GPU-83d1ab31-caf6-0c8b-43c4-1a147b2dad4d"
+    }
+  ],
+  "cudaVersion": "12.7",
+  "writerId": "m8l610em0qwtrpi96qx2u6yjaq51agn9"
+}

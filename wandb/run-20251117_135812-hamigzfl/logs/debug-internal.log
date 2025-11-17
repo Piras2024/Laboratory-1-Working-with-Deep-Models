@@ -1,0 +1,12 @@
+{"time":"2025-11-17T13:58:12.836892043+01:00","level":"INFO","msg":"stream: starting","core version":"0.23.0"}
+{"time":"2025-11-17T13:58:13.149011776+01:00","level":"INFO","msg":"stream: created new stream","id":"hamigzfl"}
+{"time":"2025-11-17T13:58:13.149083294+01:00","level":"INFO","msg":"handler: started","stream_id":"hamigzfl"}
+{"time":"2025-11-17T13:58:13.150554474+01:00","level":"INFO","msg":"stream: started","id":"hamigzfl"}
+{"time":"2025-11-17T13:58:13.150586047+01:00","level":"INFO","msg":"writer: started","stream_id":"hamigzfl"}
+{"time":"2025-11-17T13:58:13.150609812+01:00","level":"INFO","msg":"sender: started","stream_id":"hamigzfl"}
+{"time":"2025-11-17T13:58:58.293177043+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-17T13:58:58.585276403+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-17T13:58:58.608384778+01:00","level":"INFO","msg":"stream: closing","id":"hamigzfl"}
+{"time":"2025-11-17T13:58:58.608415125+01:00","level":"INFO","msg":"handler: closed","stream_id":"hamigzfl"}
+{"time":"2025-11-17T13:58:58.612868373+01:00","level":"INFO","msg":"sender: closed","stream_id":"hamigzfl"}
+{"time":"2025-11-17T13:58:58.612891061+01:00","level":"INFO","msg":"stream: closed","id":"hamigzfl"}

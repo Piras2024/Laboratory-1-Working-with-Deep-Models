@@ -1,0 +1,40 @@
+2025-11-17 13:00:20,543 INFO    MainThread:3292777 [wandb_setup.py:_flush():80] Current SDK version is 0.23.0
+2025-11-17 13:00:20,543 INFO    MainThread:3292777 [wandb_setup.py:_flush():80] Configure stats pid to 3292777
+2025-11-17 13:00:20,544 INFO    MainThread:3292777 [wandb_setup.py:_flush():80] Loading settings from /home/mpiras/.config/wandb/settings
+2025-11-17 13:00:20,552 INFO    MainThread:3292777 [wandb_setup.py:_flush():80] Loading settings from /andromeda/personal/mpiras/Lab_1/wandb/settings
+2025-11-17 13:00:20,552 INFO    MainThread:3292777 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-11-17 13:00:20,553 INFO    MainThread:3292777 [wandb_init.py:setup_run_log_directory():713] Logging user logs to /andromeda/personal/mpiras/Lab_1/wandb/run-20251117_130020-9wa5gns4/logs/debug.log
+2025-11-17 13:00:20,559 INFO    MainThread:3292777 [wandb_init.py:setup_run_log_directory():714] Logging internal logs to /andromeda/personal/mpiras/Lab_1/wandb/run-20251117_130020-9wa5gns4/logs/debug-internal.log
+2025-11-17 13:00:20,560 INFO    MainThread:3292777 [wandb_init.py:monkeypatch_ipython():632] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fae091f78c0>
+2025-11-17 13:00:20,569 INFO    MainThread:3292777 [wandb_init.py:init():840] calling init triggers
+2025-11-17 13:00:20,570 INFO    MainThread:3292777 [wandb_init.py:init():845] wandb.init called with sweep_config: {}
+config: {'batch_size': 128, 'lr': 0.01, 'epochs': 20, 'depths': [[32, 64, 64, 10], [32, 128, 128, 128, 10]], 'block_hidden_layers': 2, 'use_skip_options': [False, True], '_wandb': {}}
+2025-11-17 13:00:20,570 INFO    MainThread:3292777 [wandb_init.py:init():888] starting backend
+2025-11-17 13:00:21,047 INFO    MainThread:3292777 [wandb_init.py:init():891] sending inform_init request
+2025-11-17 13:00:21,053 INFO    MainThread:3292777 [wandb_init.py:init():899] backend started and connected
+2025-11-17 13:00:21,097 INFO    MainThread:3292777 [wandb_run.py:_label_probe_notebook():1323] probe notebook
+2025-11-17 13:00:21,098 INFO    MainThread:3292777 [wandb_init.py:init():969] updated telemetry
+2025-11-17 13:00:21,185 INFO    MainThread:3292777 [wandb_init.py:init():993] communicating run to backend with 90.0 second timeout
+2025-11-17 13:00:21,768 INFO    MainThread:3292777 [wandb_init.py:init():1040] starting run threads in backend
+2025-11-17 13:00:22,215 INFO    MainThread:3292777 [wandb_run.py:_console_start():2504] atexit reg
+2025-11-17 13:00:22,215 INFO    MainThread:3292777 [wandb_run.py:_redirect():2352] redirect: wrap_raw
+2025-11-17 13:00:22,215 INFO    MainThread:3292777 [wandb_run.py:_redirect():2421] Wrapping output streams.
+2025-11-17 13:00:22,216 INFO    MainThread:3292777 [wandb_run.py:_redirect():2444] Redirects installed.
+2025-11-17 13:00:22,221 INFO    MainThread:3292777 [wandb_init.py:init():1080] run started, returning control to user process
+2025-11-17 13:00:24,035 INFO    MainThread:3292777 [wandb_init.py:_post_run_cell_hook():602] [no run ID] resuming backend
+2025-11-17 13:03:08,300 INFO    MainThread:3292777 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-11-17 13:03:08,300 INFO    MainThread:3292777 [wandb_init.py:_pre_run_cell_hook():591] [no run ID] pausing backend
+2025-11-17 13:03:08,303 INFO    MainThread:3292777 [wandb_init.py:_post_run_cell_hook():602] [no run ID] resuming backend
+2025-11-17 13:06:11,657 INFO    MainThread:3292777 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-11-17 13:06:11,658 INFO    MainThread:3292777 [wandb_init.py:_pre_run_cell_hook():591] [no run ID] pausing backend
+2025-11-17 13:06:11,679 INFO    MainThread:3292777 [wandb_init.py:_post_run_cell_hook():602] [no run ID] resuming backend
+2025-11-17 13:06:15,286 INFO    MainThread:3292777 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-11-17 13:06:15,286 INFO    MainThread:3292777 [wandb_init.py:_pre_run_cell_hook():591] [no run ID] pausing backend
+2025-11-17 13:06:15,309 INFO    MainThread:3292777 [wandb_run.py:_finish():2270] finishing run matteo-piras-universit-di-firenze/Lab-1/9wa5gns4
+2025-11-17 13:06:17,050 INFO    MainThread:3292777 [jupyter.py:save_history():435] not saving jupyter history
+2025-11-17 13:06:17,050 INFO    MainThread:3292777 [jupyter.py:save_ipynb():359] not saving jupyter notebook
+2025-11-17 13:06:17,050 INFO    MainThread:3292777 [wandb_init.py:_jupyter_teardown():617] cleaning up jupyter logic
+2025-11-17 13:06:17,050 INFO    MainThread:3292777 [wandb_run.py:_atexit_cleanup():2469] got exitcode: 0
+2025-11-17 13:06:17,050 INFO    MainThread:3292777 [wandb_run.py:_restore():2451] restore
+2025-11-17 13:06:17,053 INFO    MainThread:3292777 [wandb_run.py:_restore():2457] restore done
+2025-11-17 13:06:18,105 INFO    MainThread:3292777 [wandb_run.py:_footer_sync_info():3853] logging synced files

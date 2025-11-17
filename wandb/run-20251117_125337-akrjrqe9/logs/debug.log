@@ -1,0 +1,452 @@
+2025-11-17 12:53:37,914 INFO    MainThread:3289763 [wandb_setup.py:_flush():80] Current SDK version is 0.23.0
+2025-11-17 12:53:37,914 INFO    MainThread:3289763 [wandb_setup.py:_flush():80] Configure stats pid to 3289763
+2025-11-17 12:53:37,926 INFO    MainThread:3289763 [wandb_setup.py:_flush():80] Loading settings from /home/mpiras/.config/wandb/settings
+2025-11-17 12:53:37,926 INFO    MainThread:3289763 [wandb_setup.py:_flush():80] Loading settings from /andromeda/personal/mpiras/Lab_1/wandb/settings
+2025-11-17 12:53:37,926 INFO    MainThread:3289763 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-11-17 12:53:37,931 INFO    MainThread:3289763 [wandb_init.py:setup_run_log_directory():713] Logging user logs to /andromeda/personal/mpiras/Lab_1/wandb/run-20251117_125337-akrjrqe9/logs/debug.log
+2025-11-17 12:53:37,931 INFO    MainThread:3289763 [wandb_init.py:setup_run_log_directory():714] Logging internal logs to /andromeda/personal/mpiras/Lab_1/wandb/run-20251117_125337-akrjrqe9/logs/debug-internal.log
+2025-11-17 12:53:37,938 INFO    MainThread:3289763 [wandb_init.py:monkeypatch_ipython():632] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fb93267fa10>
+2025-11-17 12:53:37,946 INFO    MainThread:3289763 [wandb_init.py:init():840] calling init triggers
+2025-11-17 12:53:37,946 INFO    MainThread:3289763 [wandb_init.py:init():845] wandb.init called with sweep_config: {}
+config: {'batch_size': 128, 'lr': 0.01, 'epochs': 20, 'depths': [[32, 64, 64, 10], [32, 128, 128, 128, 10]], 'block_hidden_layers': 2, 'use_skip_options': [False, True], '_wandb': {}}
+2025-11-17 12:53:37,946 INFO    MainThread:3289763 [wandb_init.py:init():888] starting backend
+2025-11-17 12:53:38,431 INFO    MainThread:3289763 [wandb_init.py:init():891] sending inform_init request
+2025-11-17 12:53:38,437 INFO    MainThread:3289763 [wandb_init.py:init():899] backend started and connected
+2025-11-17 12:53:38,488 INFO    MainThread:3289763 [wandb_run.py:_label_probe_notebook():1323] probe notebook
+2025-11-17 12:53:38,489 INFO    MainThread:3289763 [wandb_init.py:init():969] updated telemetry
+2025-11-17 12:53:38,594 INFO    MainThread:3289763 [wandb_init.py:init():993] communicating run to backend with 90.0 second timeout
+2025-11-17 12:53:39,279 INFO    MainThread:3289763 [wandb_init.py:init():1040] starting run threads in backend
+2025-11-17 12:53:39,680 INFO    MainThread:3289763 [wandb_run.py:_console_start():2504] atexit reg
+2025-11-17 12:53:39,680 INFO    MainThread:3289763 [wandb_run.py:_redirect():2352] redirect: wrap_raw
+2025-11-17 12:53:39,680 INFO    MainThread:3289763 [wandb_run.py:_redirect():2421] Wrapping output streams.
+2025-11-17 12:53:39,680 INFO    MainThread:3289763 [wandb_run.py:_redirect():2444] Redirects installed.
+2025-11-17 12:53:39,687 INFO    MainThread:3289763 [wandb_init.py:init():1080] run started, returning control to user process
+2025-11-17 12:53:40,128 INFO    MainThread:3289763 [wandb_init.py:_post_run_cell_hook():602] [no run ID] resuming backend
+2025-11-17 12:54:00,992 INFO    MainThread:3289763 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-11-17 12:54:00,992 INFO    MainThread:3289763 [wandb_init.py:_pre_run_cell_hook():591] [no run ID] pausing backend
+2025-11-17 12:54:01,011 INFO    MainThread:3289763 [wandb_init.py:_post_run_cell_hook():602] [no run ID] resuming backend
+2025-11-17 12:54:06,583 INFO    MainThread:3289763 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-11-17 12:54:06,583 INFO    MainThread:3289763 [wandb_init.py:_pre_run_cell_hook():591] [no run ID] pausing backend
+2025-11-17 12:54:06,603 INFO    MainThread:3289763 [wandb_init.py:_post_run_cell_hook():602] [no run ID] resuming backend
+2025-11-17 12:54:06,927 INFO    MainThread:3289763 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-11-17 12:54:06,927 INFO    MainThread:3289763 [wandb_init.py:_pre_run_cell_hook():591] [no run ID] pausing backend
+2025-11-17 12:54:06,939 INFO    MainThread:3289763 [wandb_init.py:_post_run_cell_hook():602] [no run ID] resuming backend
+2025-11-17 12:54:07,126 INFO    MainThread:3289763 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-11-17 12:54:07,126 INFO    MainThread:3289763 [wandb_init.py:_pre_run_cell_hook():591] [no run ID] pausing backend
+2025-11-17 12:54:07,132 INFO    MainThread:3289763 [wandb_init.py:_post_run_cell_hook():602] [no run ID] resuming backend
+2025-11-17 12:54:10,710 INFO    MainThread:3289763 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-11-17 12:54:10,710 INFO    MainThread:3289763 [wandb_init.py:_pre_run_cell_hook():591] [no run ID] pausing backend
+2025-11-17 12:54:10,725 INFO    MainThread:3289763 [wandb_init.py:_post_run_cell_hook():602] [no run ID] resuming backend
+2025-11-17 12:54:10,945 INFO    MainThread:3289763 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-11-17 12:54:10,945 INFO    MainThread:3289763 [wandb_init.py:_pre_run_cell_hook():591] [no run ID] pausing backend
+2025-11-17 12:54:10,963 INFO    MainThread:3289763 [wandb_init.py:_post_run_cell_hook():602] [no run ID] resuming backend
+2025-11-17 12:54:18,027 INFO    MainThread:3289763 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-11-17 12:54:18,027 INFO    MainThread:3289763 [wandb_init.py:_pre_run_cell_hook():591] [no run ID] pausing backend
+2025-11-17 12:54:18,035 INFO    MainThread:3289763 [wandb_init.py:_post_run_cell_hook():602] [no run ID] resuming backend
+2025-11-17 12:54:19,609 INFO    MainThread:3289763 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-11-17 12:54:19,609 INFO    MainThread:3289763 [wandb_init.py:_pre_run_cell_hook():591] [no run ID] pausing backend
+2025-11-17 12:54:19,616 INFO    MainThread:3289763 [wandb_init.py:_post_run_cell_hook():602] [no run ID] resuming backend
+2025-11-17 12:54:19,997 INFO    MainThread:3289763 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-11-17 12:54:19,997 INFO    MainThread:3289763 [wandb_init.py:_pre_run_cell_hook():591] [no run ID] pausing backend
+2025-11-17 12:54:20,009 INFO    MainThread:3289763 [wandb_init.py:_post_run_cell_hook():602] [no run ID] resuming backend
+2025-11-17 12:54:20,185 INFO    MainThread:3289763 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-11-17 12:54:20,185 INFO    MainThread:3289763 [wandb_init.py:_pre_run_cell_hook():591] [no run ID] pausing backend
+2025-11-17 12:54:20,197 INFO    MainThread:3289763 [wandb_init.py:_post_run_cell_hook():602] [no run ID] resuming backend
+2025-11-17 12:54:23,223 INFO    MainThread:3289763 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-11-17 12:54:23,223 INFO    MainThread:3289763 [wandb_init.py:_pre_run_cell_hook():591] [no run ID] pausing backend
+2025-11-17 12:54:23,230 INFO    MainThread:3289763 [wandb_init.py:_post_run_cell_hook():602] [no run ID] resuming backend
+2025-11-17 12:54:45,325 INFO    MainThread:3289763 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-11-17 12:54:45,326 INFO    MainThread:3289763 [wandb_init.py:_pre_run_cell_hook():591] [no run ID] pausing backend
+2025-11-17 12:54:45,328 INFO    MainThread:3289763 [wandb_init.py:_post_run_cell_hook():602] [no run ID] resuming backend
+2025-11-17 12:54:47,436 INFO    MainThread:3289763 [jupyter.py:save_ipynb():359] [no run ID] not saving jupyter notebook
+2025-11-17 12:54:47,436 INFO    MainThread:3289763 [wandb_init.py:_pre_run_cell_hook():591] [no run ID] pausing backend
+2025-11-17 12:54:47,473 INFO    MainThread:3289763 [wandb_run.py:_finish():2270] finishing run matteo-piras-universit-di-firenze/Lab-1/akrjrqe9
+2025-11-17 12:54:49,249 INFO    MainThread:3289763 [jupyter.py:save_history():435] not saving jupyter history
+2025-11-17 12:54:49,249 INFO    MainThread:3289763 [jupyter.py:save_ipynb():359] not saving jupyter notebook
+2025-11-17 12:54:49,249 INFO    MainThread:3289763 [wandb_init.py:_jupyter_teardown():617] cleaning up jupyter logic
+2025-11-17 12:54:49,250 INFO    MainThread:3289763 [wandb_run.py:_atexit_cleanup():2469] got exitcode: 0
+2025-11-17 12:54:49,255 INFO    MainThread:3289763 [wandb_run.py:_restore():2451] restore
+2025-11-17 12:54:49,263 INFO    MainThread:3289763 [wandb_run.py:_restore():2457] restore done
+2025-11-17 12:55:10,048 WARNING MainThread:3289763 [wandb_init.py:init():1595] [no run ID] interrupted
+Traceback (most recent call last):
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 1586, in init
+    run = wi.init(run_settings, run_config, run_printer)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 861, in init
+    self._wl.finish_all_active_runs()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_setup.py", line 165, in finish_all_active_runs
+    run.finish()
+    ~~~~~~~~~~^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 390, in wrapper
+    return func(self, *args, **kwargs)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 435, in wrapper
+    return func(self, *args, **kwargs)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 2258, in finish
+    return self._finish(exit_code)
+           ~~~~~~~~~~~~^^^^^^^^^^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 390, in wrapper
+    return func(self, *args, **kwargs)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 2286, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 2481, in _atexit_cleanup
+    self._on_finish()
+    ~~~~~~~~~~~~~~~^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 2703, in _on_finish
+    wait_with_progress(
+    ~~~~~~~~~~~~~~~~~~^
+        exit_handle,
+        ^^^^^^^^^^^^
+    ...<5 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 23, in wait_with_progress
+    return wait_all_with_progress(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        [handle],
+        ^^^^^^^^^
+        timeout=timeout,
+        ^^^^^^^^^^^^^^^^
+        display_progress=display_progress,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )[0]
+    ^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 77, in wait_all_with_progress
+    return asyncer.run(progress_loop_with_timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/concurrent/futures/_base.py", line 451, in result
+    self._condition.wait(timeout)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/threading.py", line 359, in wait
+    waiter.acquire()
+    ~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+2025-11-17 12:55:10,051 INFO    wandb-AsyncioManager-main:3289763 [service_client.py:_forward_responses():80] Reached EOF.
+2025-11-17 12:55:10,107 INFO    wandb-AsyncioManager-main:3289763 [mailbox.py:close():137] Closing mailbox, abandoning 2 handles.
+2025-11-17 12:55:12,230 ERROR   MainThread:3289763 [wandb_init.py:init():1601] [no run ID] error in wandb.init()
+Traceback (most recent call last):
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 1586, in init
+    run = wi.init(run_settings, run_config, run_printer)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 892, in init
+    service.inform_init(
+    ~~~~~~~~~~~~~~~~~~~^
+        settings=settings.to_proto(),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        run_id=settings.run_id,  # type: ignore
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_connection.py", line 158, in inform_init
+    self._asyncer.run(
+    ~~~~~~~~~~~~~~~~~^
+        lambda: self._client.publish(spb.ServerRequest(inform_init=request))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/asyncio/streams.py", line 386, in drain
+    await self._protocol._drain_helper()
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-11-17 12:55:24,497 ERROR   MainThread:3289763 [wandb_init.py:init():1601] [no run ID] error in wandb.init()
+Traceback (most recent call last):
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 1586, in init
+    run = wi.init(run_settings, run_config, run_printer)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 892, in init
+    service.inform_init(
+    ~~~~~~~~~~~~~~~~~~~^
+        settings=settings.to_proto(),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        run_id=settings.run_id,  # type: ignore
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_connection.py", line 158, in inform_init
+    self._asyncer.run(
+    ~~~~~~~~~~~~~~~~~^
+        lambda: self._client.publish(spb.ServerRequest(inform_init=request))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/asyncio/streams.py", line 374, in drain
+    raise exc
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/asyncio/selector_events.py", line 1067, in write
+    n = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-17 12:56:17,935 ERROR   MainThread:3289763 [wandb_init.py:init():1601] [no run ID] error in wandb.init()
+Traceback (most recent call last):
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 1586, in init
+    run = wi.init(run_settings, run_config, run_printer)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 892, in init
+    service.inform_init(
+    ~~~~~~~~~~~~~~~~~~~^
+        settings=settings.to_proto(),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        run_id=settings.run_id,  # type: ignore
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_connection.py", line 158, in inform_init
+    self._asyncer.run(
+    ~~~~~~~~~~~~~~~~~^
+        lambda: self._client.publish(spb.ServerRequest(inform_init=request))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/asyncio/streams.py", line 374, in drain
+    raise exc
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/IPython/core/interactiveshell.py", line 3699, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_3289763/2332695391.py", line 4, in <module>
+    wandb.init(
+    ~~~~~~~~~~^
+        project="Lab-1",
+        ^^^^^^^^^^^^^^^^
+        name="mlp_experiments",
+        ^^^^^^^^^^^^^^^^^^^^^^^
+        config=config
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 1603, in init
+    get_sentry().reraise(e)
+    ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/analytics/sentry.py", line 190, in reraise
+    raise exc.with_traceback(tb)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 1586, in init
+    run = wi.init(run_settings, run_config, run_printer)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 892, in init
+    service.inform_init(
+    ~~~~~~~~~~~~~~~~~~~^
+        settings=settings.to_proto(),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        run_id=settings.run_id,  # type: ignore
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_connection.py", line 158, in inform_init
+    self._asyncer.run(
+    ~~~~~~~~~~~~~~~~~^
+        lambda: self._client.publish(spb.ServerRequest(inform_init=request))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/asyncio/streams.py", line 374, in drain
+    raise exc
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/asyncio/selector_events.py", line 1067, in write
+    n = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-17 12:58:31,461 ERROR   MainThread:3289763 [wandb_init.py:init():1601] [no run ID] error in wandb.init()
+Traceback (most recent call last):
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 1586, in init
+    run = wi.init(run_settings, run_config, run_printer)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 892, in init
+    service.inform_init(
+    ~~~~~~~~~~~~~~~~~~~^
+        settings=settings.to_proto(),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        run_id=settings.run_id,  # type: ignore
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_connection.py", line 158, in inform_init
+    self._asyncer.run(
+    ~~~~~~~~~~~~~~~~~^
+        lambda: self._client.publish(spb.ServerRequest(inform_init=request))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/asyncio/streams.py", line 374, in drain
+    raise exc
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/IPython/core/interactiveshell.py", line 3699, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_3289763/2332695391.py", line 4, in <module>
+    wandb.init(
+    ~~~~~~~~~~^
+        project="Lab-1",
+        ^^^^^^^^^^^^^^^^
+        name="mlp_experiments",
+        ^^^^^^^^^^^^^^^^^^^^^^^
+        config=config
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 1603, in init
+    get_sentry().reraise(e)
+    ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/analytics/sentry.py", line 190, in reraise
+    raise exc.with_traceback(tb)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 1586, in init
+    run = wi.init(run_settings, run_config, run_printer)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 892, in init
+    service.inform_init(
+    ~~~~~~~~~~~~~~~~~~~^
+        settings=settings.to_proto(),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        run_id=settings.run_id,  # type: ignore
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_connection.py", line 158, in inform_init
+    self._asyncer.run(
+    ~~~~~~~~~~~~~~~~~^
+        lambda: self._client.publish(spb.ServerRequest(inform_init=request))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/asyncio/streams.py", line 374, in drain
+    raise exc
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/IPython/core/interactiveshell.py", line 3699, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_3289763/2332695391.py", line 4, in <module>
+    wandb.init(
+    ~~~~~~~~~~^
+        project="Lab-1",
+        ^^^^^^^^^^^^^^^^
+        name="mlp_experiments",
+        ^^^^^^^^^^^^^^^^^^^^^^^
+        config=config
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 1603, in init
+    get_sentry().reraise(e)
+    ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/analytics/sentry.py", line 190, in reraise
+    raise exc.with_traceback(tb)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 1586, in init
+    run = wi.init(run_settings, run_config, run_printer)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 892, in init
+    service.inform_init(
+    ~~~~~~~~~~~~~~~~~~~^
+        settings=settings.to_proto(),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        run_id=settings.run_id,  # type: ignore
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_connection.py", line 158, in inform_init
+    self._asyncer.run(
+    ~~~~~~~~~~~~~~~~~^
+        lambda: self._client.publish(spb.ServerRequest(inform_init=request))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/asyncio/streams.py", line 374, in drain
+    raise exc
+  File "/andromeda/personal/mpiras/miniconda3/envs/DLA/lib/python3.13/asyncio/selector_events.py", line 1067, in write
+    n = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe

@@ -1,0 +1,6 @@
+2025-11-17 13:11:29,664 INFO    MainThread:3292777 [wandb_init.py:setup_run_log_directory():713] Logging user logs to /andromeda/personal/mpiras/Lab_1/wandb/run-20251117_131129-jmodoc38/logs/debug.log
+2025-11-17 13:11:29,664 INFO    MainThread:3292777 [wandb_init.py:setup_run_log_directory():714] Logging internal logs to /andromeda/personal/mpiras/Lab_1/wandb/run-20251117_131129-jmodoc38/logs/debug-internal.log
+2025-11-17 13:11:29,669 INFO    MainThread:3292777 [wandb_init.py:monkeypatch_ipython():632] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fadc8255090>
+2025-11-17 13:11:29,679 INFO    MainThread:3292777 [wandb_init.py:init():840] calling init triggers
+2025-11-17 13:11:29,679 INFO    MainThread:3292777 [wandb_init.py:init():845] wandb.init called with sweep_config: {}
+config: {'batch_size': 128, 'lr': 0.01, 'epochs': 20, 'depths': [[784, 64, 64, 10], [784, 128, 128, 128, 10]], 'block_hidden_layers': 2, 'use_skip_options': [False, True], 'layer_sizes': [784, 64, 64, 10], 'use_skip': False, '_wandb': {}}

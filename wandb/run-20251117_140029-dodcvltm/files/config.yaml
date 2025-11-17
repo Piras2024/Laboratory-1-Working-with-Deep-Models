@@ -1,0 +1,115 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        e:
+            et8tq1oycfjy08lxd2ksn6zdq6oyky7c:
+                codePath: /andromeda/personal/mpiras/Lab_1/Lab1-CNNs.ipynb
+                codePathLocal: Lab1-CNNs.ipynb
+                cpu_count: 20
+                cpu_count_logical: 40
+                cudaVersion: "12.7"
+                disk:
+                    /:
+                        total: "502391562240"
+                        used: "147561320448"
+                email: matteo.piras@edu.unifi.it
+                executable: /andromeda/personal/mpiras/miniconda3/envs/DLA/bin/python
+                git:
+                    commit: d55813f0acf770c5bcda3b09728b947d07e8c96c
+                    remote: https://github.com/Piras2024/Laboratory-1-Working-with-Deep-Models.git
+                gpu: NVIDIA GeForce RTX 2080 Ti
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-50ad2298-cd85-220c-d779-c8075677092c
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-83d1ab31-caf6-0c8b-43c4-1a147b2dad4d
+                host: harlock
+                memory:
+                    total: "270344613888"
+                os: Linux-5.15.0-119-generic-x86_64-with-glibc2.35
+                program: /andromeda/personal/mpiras/Lab_1/Lab1-CNNs.ipynb
+                python: CPython 3.13.9
+                root: /andromeda/personal/mpiras/Lab_1
+                startedAt: "2025-11-17T13:00:29.778819Z"
+                writerId: et8tq1oycfjy08lxd2ksn6zdq6oyky7c
+        m: []
+        python_version: 3.13.9
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+            "3":
+                - 2
+                - 13
+                - 16
+                - 61
+            "4": 3.13.9
+            "5": 0.23.0
+            "8":
+                - 1
+            "10":
+                - 20
+            "12": 0.23.0
+            "13": linux-x86_64
+batch_size:
+    value: 128
+block_hidden_layers:
+    value: 2
+depths:
+    value:
+        - - 784
+          - 64
+          - 64
+          - 10
+        - - 784
+          - 128
+          - 128
+          - 128
+          - 128
+          - 10
+        - - 784
+          - 128
+          - 128
+          - 128
+          - 128
+          - 128
+          - 128
+          - 128
+          - 128
+          - 10
+epochs:
+    value: 10
+layer_sizes:
+    value:
+        - 784
+        - 128
+        - 128
+        - 128
+        - 128
+        - 128
+        - 128
+        - 128
+        - 128
+        - 10
+lr:
+    value: 0.01
+use_skip:
+    value: false
+use_skip_options:
+    value:
+        - false
+        - true

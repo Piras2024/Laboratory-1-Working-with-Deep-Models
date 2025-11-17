@@ -1,0 +1,7 @@
+2025-11-17 12:56:17,923 INFO    MainThread:3289763 [wandb_init.py:setup_run_log_directory():713] Logging user logs to /andromeda/personal/mpiras/Lab_1/wandb/run-20251117_125617-qxjvjhaj/logs/debug.log
+2025-11-17 12:56:17,923 INFO    MainThread:3289763 [wandb_init.py:setup_run_log_directory():714] Logging internal logs to /andromeda/personal/mpiras/Lab_1/wandb/run-20251117_125617-qxjvjhaj/logs/debug-internal.log
+2025-11-17 12:56:17,923 INFO    MainThread:3289763 [wandb_init.py:init():840] calling init triggers
+2025-11-17 12:56:17,928 INFO    MainThread:3289763 [wandb_init.py:init():845] wandb.init called with sweep_config: {}
+config: {'batch_size': 128, 'lr': 0.01, 'epochs': 20, 'depths': [[32, 64, 64, 10], [32, 128, 128, 128, 10]], 'block_hidden_layers': 2, 'use_skip_options': [False, True], '_wandb': {}}
+2025-11-17 12:56:17,928 INFO    MainThread:3289763 [wandb_init.py:init():888] starting backend
+2025-11-17 12:56:17,931 INFO    MainThread:3289763 [wandb_init.py:init():891] sending inform_init request
